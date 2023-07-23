@@ -29,6 +29,7 @@ Este é um Sistema de Registro de Alunos desenvolvido em Python usando a bibliot
 
 
 
+![Captura de tela_20230722_225721](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/1ea8868b-e4f0-4bf9-8a1e-636bbff8e7b6)
 
 
 
