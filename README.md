@@ -1,34 +1,28 @@
 # Sistema de Registro de Alunos 
 Este é um Sistema de Registro de Alunos desenvolvido em Python usando a biblioteca Tkinter para a interface gráfica, o Pillow para manipulação de imagens e o Tkcalendar para seleção de datas. O sistema permite que você cadastre, visualize, atualize e exclua informações de alunos em um banco de dados SQLite.
 
-
+## Tela inicial:
 ![Captura de tela_20230722_225721](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/b559402a-ae46-4a2e-b18f-879082a228dc)
 
-
-
+## Inserido dados:
+Primeiro você insere os dados para cadastar no sistema e respectivamente no banco de dados:
 ![Captura de tela_20230722_225846](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/2ad9c959-d0f1-4dd0-99fb-5d6321247776)
 
-
-
+Após inserir todos os dados, apertar em "Adicionar" e você será registado com suecesso.
 ![Captura de tela_20230722_225902](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/cbf549fa-89e9-416e-984c-d8f7df8073c1)
 
-
-
-
+## Atualizando dados:
+Primeiro você insere o id do perfil que deseja atualizar os dados e após isso aperta em procurar e edita os dados.
 ![Captura de tela_20230722_230013](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/7c2d7a74-2c03-4bfc-9bf6-3dbe49cefbcf)
 
-
-
-
+Após editar os dados aperta em "Atualizar" e os dados serão atualizados com sucesso.
 ![Captura de tela_20230722_230034](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/e1b94583-4c23-43e9-af89-8b7c4e311739)
 
-
-
-
+## deletando dados:
+Adicionna o Id do perfil que deseja deletar
 ![Captura de tela_20230722_230055](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/2be50d40-cc56-4031-b716-082843ea7213)
 
-
-
+Após isso aperta em deletar e o usuario sera deletado com sucesso
 ![Captura de tela_20230722_225721](https://github.com/Jeova-1704/Sistema-cadastro-alunos/assets/127805808/1ea8868b-e4f0-4bf9-8a1e-636bbff8e7b6)
 
 
