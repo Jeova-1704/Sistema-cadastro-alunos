@@ -58,7 +58,7 @@ frame_tabela.grid(row=3, column=0, padx=10, pady=0, sticky=NSEW, columnspan=5)
 
 global imagem, imagem_string, l_imagem
 
-app_lg = Image.open('logo.png')
+app_lg = Image.open('images/logo.png')
 app_lg = app_lg.resize((50, 50))
 app_lg = ImageTk.PhotoImage(app_lg)
 app_logo = Label(frame_logo, image=app_lg, text=" Sistema de registro de Alunos", width=850, compound=LEFT, anchor=NW,
@@ -67,7 +67,7 @@ app_logo.place(x=5, y=-5)
 
 # abriando a imagem
 
-imagem = Image.open('logo.png')
+imagem = Image.open('images/logo.png')
 imagem = imagem.resize((130, 130))
 imagem = ImageTk.PhotoImage(imagem)
 l_imagem = Label(frame_detalhes, image=imagem, bg=cor1, fg=cor4)
@@ -185,7 +185,7 @@ def atualizar():
     entrada_curso.delete(0, END)
 
     # abrindo a imagem
-    imagem = Image.open('logo.png')
+    imagem = Image.open('images/logo.png')
     imagem = imagem.resize((130, 130))
     imagem = ImageTk.PhotoImage(imagem)
     l_imagem = Label(frame_detalhes, image=imagem, bg=cor1, fg=cor4)
@@ -216,7 +216,7 @@ def deletar():
     entrada_id.delete(0, END)
 
     # abrindo a imagem
-    imagem = Image.open('logo.png')
+    imagem = Image.open('images/logo.png')
     imagem = imagem.resize((130, 130))
     imagem = ImageTk.PhotoImage(imagem)
     l_imagem = Label(frame_detalhes, image=imagem, bg=cor1, fg=cor4)
@@ -377,7 +377,7 @@ botao_procurar.grid(row=1, column=1, padx=0, pady=10, sticky=NSEW)
 
 # Botoes [add, del, update]=============================================================================================
 
-app_add = Image.open('add.png')
+app_add = Image.open('images/add.png')
 app_add = app_add.resize((25, 25))
 app_add = ImageTk.PhotoImage(app_add)
 botao_add = Button(frame_botoes, image=app_add, command=add, relief=GROOVE, text="Adicionar", width=100, compound=LEFT,
@@ -385,7 +385,7 @@ botao_add = Button(frame_botoes, image=app_add, command=add, relief=GROOVE, text
                    bg=cor1, fg=cor0)
 botao_add.grid(row=1, column=0, padx=10, pady=5, sticky=NSEW)
 
-app_update = Image.open('update.png')
+app_update = Image.open('images/update.png')
 app_update = app_update.resize((25, 25))
 app_update = ImageTk.PhotoImage(app_update)
 botao_update = Button(frame_botoes, command=atualizar, image=app_update, relief=GROOVE, text="Atualizar", width=100,
@@ -394,7 +394,7 @@ botao_update = Button(frame_botoes, command=atualizar, image=app_update, relief=
                       bg=cor1, fg=cor0)
 botao_update.grid(row=2, column=0, padx=10, pady=5, sticky=NSEW)
 
-app_delete = Image.open('delete.png')
+app_delete = Image.open('images/delete.png')
 app_delete = app_delete.resize((25, 25))
 app_delete = ImageTk.PhotoImage(app_delete)
 botao_update = Button(frame_botoes, command=deletar, image=app_delete, relief=GROOVE, text="Deletar", width=100, compound=LEFT,
